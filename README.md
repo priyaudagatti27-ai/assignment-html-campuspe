@@ -1,45 +1,52 @@
-Project Title:HTML Authentication Flow
-Pages created:
-A.index.html
-B.Login page:
-  Username input
-  Password input
-  Login button → redirects to Dashboard
-  Forgot Password link → redirects to Forgot page
-  Create New Account link → redirects to Register page
-  
-C.Register Page:
-  Name
-  Email / ID
-  Phone number
-  Password
-  Confirm password
-  Register button → redirects to Login page
-  “I already have an account” → redirects to Login page
+# Authentication System
 
-D.Forgot Password Page:
-  Email input field
- “Send Password Reset Link” button → redirects to Login page
+This project is a styled authentication system using Bootstrap 5.
 
-E.Reset Password Page:
-  Enter new password
-  Confirm password
-  Update password button → redirects to Login page
+---
 
-F.Dashboard Page:
-    Welcome message
-    Logout button → redirects to Login page
-    
-Navigation Flow:
-a.Login → Dashboard
-b.Register → Login
-c.Forgot Password → Login
-d.Reset Password → Login
-e.Logout → Login
+## Pages
+1. Login
+2. Register  
+3. Forgot Password  
+4. Reset Password  
+5. Dashboard
 
-Technologies Used:
-HTML
-Anchor Tags (<a>) for navigation
-VS Code
+---
+
+## Screenshots
+
+1. Login Page
+[Login Page](login.png)
+
+2. Register Page
+[Register Page](register.png)
+
+3. Forgot Password Page
+[Forgot Page](forgot.png)
+
+4. Reset Password Page
+[Reset Page](reset.png)  
+
+5. Dashboard Page
+![Dashboard Page](dashboard.png)
+
+
+
+---
+
+## Technologies Used
+- HTML 
+- CSS  
+- Bootstrap 5  
+
+---
+
+## Features
+- Modern gradient background and floating card design  
+- Responsive layout for desktop, laptop, tablet, and mobile  
+- Interactive buttons and hover effects  
+- Styled links with hover color  
+- Fully functional authentication pages  
+
 github
 git
